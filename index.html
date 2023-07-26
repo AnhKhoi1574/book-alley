@@ -13,49 +13,44 @@ Acknowledgement: Acknowledge the resources that you use here. -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Alley's homepage</title>
+  <link rel="stylesheet" href="css/general.css">
 </head>
 
 <body>
-  <header>
+  <div>
+    <header>
 
-    <!-- Logo -->
-    <div>
-      <a href="index.html"><img src="images/logo/lantern-logo.jpg" alt="Book Alley's logo"></a>
-    </div>
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html"><img src="images/logo/lantern-logo.jpg" alt="Book Alley's logo"></a>
+      </div>
 
-    <!-- Navigation bar -->
-    <div>
-      <nav>
+      <!-- Navigation bar -->
+      <nav class="menu" role="navigation">
         <ul>
-          <li>Search bar</li>
-          <div>
-            <li>Home</li>
-            <li>Fiction</li>
-            <li>Non-Fiction</li>
-            <li>Education</li>
-          </div>
+          <span class="searching"><li> Search bar</li></span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Non-Fiction</a></li>
+            <li><a href="#">Education</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <!-- All section -->
-    <div>
-
+    <main>
       <!-- Best Seller -->
       <section>
         <h2>Best Seller</h2>
-
+        <div class="card-layout">
         <!-- Book 1 -->
-        <article>
+        <article class="card">
           <a href="#">
             <picture>
               <img
                 src="images/book/non-fiction/self-help/how-to-win-friends-and-influence-people/how-to-win-friends-and-influence-people-1.jpg"
                 alt="How to win friends and influence people">
             </picture>
-            <div>
+            <div class="card-text">
               <p>How to Win Friends and Influence People
                 <br><strong>60.000</strong>
               </p>
@@ -64,14 +59,14 @@ Acknowledgement: Acknowledge the resources that you use here. -->
         </article>
 
         <!-- Book 2 -->
-        <article>
+        <article class="card">
           <a href="#">
             <picture>
               <img
                 src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-1.jpg"
                 alt="Give Me a Ticket to Childhood">
             </picture>
-            <div>
+            <div class="card-text">
               <p>Give Me a Ticket to Childhood
                 <br><strong>400.000</strong>
               </p>
@@ -80,35 +75,37 @@ Acknowledgement: Acknowledge the resources that you use here. -->
         </article>
 
         <!-- Book 3 -->
-        <article>
+        <article class="card">
           <a href="#">
             <picture>
               <img src="images/book/fiction/fantasy/harry-potter/harry-potter-1.jpg"
-              alt="Harry Potter And The Order Of The Phoenix">
+                alt="Harry Potter And The Order Of The Phoenix">
             </picture>
-            <div>
+            <div class="card-text">
               <p>Harry Potter And The Order Of The Phoenix
                 <br><strong>450.000</strong>
               </p>
             </div>
           </a>
         </article>
+      </div>
       </section>
-    </div>
-  </main>
-  <footer>
-    <aside>
-      <ul>
-        <li>About Us</li>
-        <li>Privacy Policy</li>
-        <li>Terms</li>
-        <li>Copyright</li>
-        <li>Contact Us</li>
-      </ul>
-      <!-- add video -->
-      <div></div>
-    </aside>
-  </footer>
+
+    </main>
+    <footer>
+      <aside>
+        <ul>
+          <li>About Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms</li>
+          <li>Copyright</li>
+          <li>Contact Us</li>
+        </ul>
+        <!-- add video -->
+        <div></div>
+      </aside>
+    </footer>
+  </div>
 </body>
 
 </html>
