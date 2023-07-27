@@ -33,6 +33,10 @@ img {
 }
 
 /* menu */
+nav {
+    margin-bottom: 10px;
+}
+
 .menu {
     color: white;
 }
