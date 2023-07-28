@@ -14,6 +14,11 @@ Acknowledgement: Acknowledge the resources that you use here. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Alley's homepage</title>
   <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/card-layout.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,12 +41,13 @@ Acknowledgement: Acknowledge the resources that you use here. -->
         </ul>
       </nav>
       <!-- banner -->
-      <picture>
+      <picture class="banner">
         <img src="images/others/banner1.jpg" alt="banner">
       </picture>
     </header>
 
     <main>
+      <div class="cards">
       <!-- Best Seller -->
       <section>
         <h2>Best Seller</h2>
@@ -251,7 +257,7 @@ Acknowledgement: Acknowledge the resources that you use here. -->
           </article>
       </div>
       </section>
-
+    </div>
     </main>
     <footer>
       <aside class="menu" role="navigation">
@@ -262,7 +268,14 @@ Acknowledgement: Acknowledge the resources that you use here. -->
           <li>Copyright</li>
           <li>Contact Us</li>
         </ul>
+        <hr>
         <!-- add video -->
+        <div class="footer-box">
+          <p class="footer-content">Made by Anh Khoi with ❤️‍🔥
+            <br>Email: <a href="mailto:s3980639@rmit.edu.vn">s3980639@rmit.edu.vn</a></p>
+          <p class="footer-content">Copyright <sup>&#169;</sup> 2023 Book Alley.
+            <br>All rights reserved.</p>
+        </div>
         <div></div>
       </aside>
     </footer>

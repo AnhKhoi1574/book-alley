@@ -7,15 +7,45 @@ ID: s3980639
 Acknowledgement: Acknowledge the resources that you use here. */
 
 /* general */
+
+/* body */
 body {
     margin: 0 auto;
     padding: 0 20px;
     background: hsl(0, 0%, 90%);
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
 }
+
 @media screen and (min-width: 60em) {
     body {
         max-width: 60em;
     }
+}
+
+/* footer */
+
+footer, .footer-box, .footer-content {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+}
+.footer-box {
+    display: flex;
+    background-color: black;
+}
+
+.footer-content {
+    flex: 1 0 auto;
+    text-align: center;
+    
+}
+
+.footer-content, .footer-content a {
+    color: white;
+    text-decoration: none;
 }
 
 img {
@@ -32,95 +62,11 @@ img {
     width: 100px;
 }
 
-/* menu */
-nav {
-    margin-bottom: 10px;
-}
-
-.menu {
-    color: white;
-}
-
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background-color: black;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: white;
-    display: block;
+/* .searching {
     padding: 10px;
-}
+} */
 
-/* larger screen menu */
-@media screen and (min-width: 1024px) {
-
-    .menu ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .menu li, .menu .searching {
-        flex: 1 0 auto;
-        text-align: center;
-    }
-
-}
-
-aside .menu ul {
-    background-color: gray;
-}
-
-.searching {
-    padding: 10px;
-}
-
-/* card layout */
-
-.card {
-    background: white;
-	margin-bottom: 2em;
-}
-
-.card a {
-	color: black;
-	text-decoration: none;
-}
-
-.card-text {
-    text-align: center;
-    padding: 0 5px 5px;
-    line-height: 1.5;
-}
-
-.card img {
-    padding-top: 10px;
-    height: 316.8px;
-}
-
-/* Larger screen */
-@media screen and (min-width: 426px) {
-    
-    .card-layout {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        }
-    
-    .card {
-        flex: 0 1 calc(50% - 5px);
-    }
-    .card-text {
-        padding-bottom: 0;
-    }
-}
-@media screen and (min-width: 1024px) {
-    
-    .card {
-        flex: 0 1 calc(33% - 5px);
-    }
+/* banner */
+.banner img {
+    border-radius: 5px;
 }
