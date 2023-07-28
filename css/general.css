@@ -12,9 +12,9 @@ Acknowledgement: Acknowledge the resources that you use here. */
 body {
     margin: 0 auto;
     padding: 0 20px;
-    background: #F5EFE7;
+    background: #F6F1F1;
     font-family: 'Old Standard TT', serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @media screen and (min-width: 60em) {

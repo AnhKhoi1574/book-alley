@@ -13,6 +13,7 @@ nav {
 
 .menu {
     color: #F7E8D3;
+    font-size: 30px;
 }
 
 .menu, .menu ul, .menu li {
@@ -34,10 +35,6 @@ nav {
 
 .menu li {
     padding: 10px;
-}
-
-.menu hr {
-    margin: 0;
 }
 
 /* larger screen menu */
