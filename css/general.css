@@ -12,7 +12,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 body {
     margin: 0 auto;
     padding: 0 20px;
-    background: hsl(0, 0%, 90%);
+    background: #F5EFE7;
     font-family: 'Old Standard TT', serif;
     font-size: 20px;
 }
@@ -30,11 +30,11 @@ footer, .footer-box, .footer-content {
 }
 
 footer {
-    background-color: black;
+    background-color: #293D48;
 }
 .footer-box {
     display: flex;
-    background-color: black;
+    background-color: #293D48;
 }
 
 .footer-content {
@@ -44,7 +44,7 @@ footer {
 }
 
 .footer-content, .footer-content a {
-    color: white;
+    color: #F7E8D3;
     text-decoration: none;
 }
 
@@ -55,11 +55,17 @@ img {
 }
 
 /* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 .logo a {
     text-align: center;
 }
 .logo img {
-    width: 100px;
+    width: 200px;
+    border-radius: 5px;
 }
 
 /* .searching {

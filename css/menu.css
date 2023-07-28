@@ -12,7 +12,7 @@ nav {
 }
 
 .menu {
-    color: white;
+    color: #F7E8D3;
 }
 
 .menu, .menu ul, .menu li {
@@ -23,17 +23,21 @@ nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #293D48;
 }
 
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: #F7E8D3;
     display: block;
 }
 
 .menu li {
     padding: 10px;
+}
+
+.menu hr {
+    margin: 0;
 }
 
 /* larger screen menu */

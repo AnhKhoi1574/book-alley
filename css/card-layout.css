@@ -18,9 +18,13 @@ Acknowledgement: Acknowledge the resources that you use here. */
 }
 
 .cards h2 {
+    font-size: 40px;
     text-align: center;
     margin: 0;
     padding: 15px;
+    color: #BF9369;
+    text-decoration: underline 2px;
+    text-underline-offset: 7px;
 }
 
 .card {
@@ -28,7 +32,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 }
 
 .card a {
-	color: black;
+	color: #293D48;
 	text-decoration: none;
 }
 
@@ -50,11 +54,23 @@ Acknowledgement: Acknowledge the resources that you use here. */
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        }
+    }
     
+    .card-layout hr {
+        background: #293D48;
+        width: 2px;
+        border: 0;
+    }
+/* ??????? */
+    .card-layout hr:last-child {
+        display: none;
+    }
+
+
     .card {
         display: flex;
         flex: 0 1 calc(50% - 5px);
+        /* border: 2px solid #293D48; */
     }
 
     .card-text {
@@ -64,6 +80,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
 @media screen and (min-width: 1024px) {
     
     .card {
-        flex: 0 1 calc(33% - 5px);
+        flex: 0 1 calc(33% - 10px);
     }
 }
