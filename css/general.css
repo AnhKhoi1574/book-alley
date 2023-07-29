@@ -11,6 +11,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 /* video */
 .video-header {
     width: 100%;
+    border-radius: 5px;
 }
 
 /* image */
