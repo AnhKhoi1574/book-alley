@@ -31,11 +31,30 @@ nav {
     text-decoration: none;
     color: #F7E8D3;
     display: block;
+    padding: 10px;
+    font-weight: bold;
 }
 
-.menu li {
-    padding: 10px;
+.menu li a:hover {
+    color: #293D48;
+    background-color: #F7E8D3;
 }
+
+/* .menu ul a:hover:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.menu ul a:hover:last-child {
+    border-radius: 0 5px 5px 0;
+} */
+/* .menu li:first-child:hover {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+.menu li:last-child:hover {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  } */
 
 /* larger screen menu */
 @media screen and (min-width: 1024px) {

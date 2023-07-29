@@ -8,6 +8,19 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 /* general */
 
+/* video */
+.video-header {
+    width: 100%;
+}
+
+/* image */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 /* body */
 body {
     margin: 0 auto;
@@ -32,6 +45,16 @@ footer, .footer-box, .footer-content {
 footer {
     background-color: #293D48;
 }
+
+footer hr {
+    border: 1px solid #F7E8D3;
+    border-radius: 5px;
+    /* height: 2px; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .footer-box {
     display: flex;
     background-color: #293D48;
@@ -46,12 +69,6 @@ footer {
 .footer-content, .footer-content a {
     color: #F7E8D3;
     text-decoration: none;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 /* logo */

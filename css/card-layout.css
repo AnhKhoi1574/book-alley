@@ -23,6 +23,9 @@ Acknowledgement: Acknowledge the resources that you use here. */
     margin: 0;
     padding: 15px;
     color: #BF9369;
+}
+
+.cards h2:hover {
     text-decoration: underline 2px;
     text-underline-offset: 7px;
 }
@@ -34,6 +37,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 .card a {
 	color: #293D48;
 	text-decoration: none;
+    transition: border .2s;
 }
 
 .card-text {
@@ -44,7 +48,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 .card img {
     padding-top: 10px;
-    /* height: 320px; */
 }
 
 /* Larger screen */
@@ -56,11 +59,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
         flex-wrap: wrap;
     }
     
-    .card-layout hr {
-        background: #293D48;
-        width: 1px;
-        border: 0;
-    }
+
 /* ??????? */
     .card-layout hr:last-child {
         display: none;
@@ -76,10 +75,16 @@ Acknowledgement: Acknowledge the resources that you use here. */
     .card-text {
         padding-bottom: 0;
     }
+
+    .card a:hover {
+        border: 3px solid #293D48;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 }
 @media screen and (min-width: 1024px) {
     
     .card {
-        flex: 0 1 calc(33% - 10px);
+        flex: 0 1 calc(33%);
     }
 }
