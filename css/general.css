@@ -108,3 +108,30 @@ footer hr {
 .banner img {
     border-radius: 5px;
 }
+
+/* breadcrumbs */
+.bread {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    list-style: none;
+  }
+  
+  .bread li {
+    display: inline-block;
+    color: #293D48;
+
+  }
+  
+  .bread li a {
+    color: #293D48;
+    text-decoration: none;
+  }
+  .bread li:last-child {
+    text-decoration: underline;
+}
+
+  .bread li:not(:last-child):after {
+    content: ">";
+    margin: 0 5px 0 12px;
+    color: #293D48;
+  }
