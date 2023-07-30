@@ -50,7 +50,6 @@ footer {
 footer hr {
     border: 1px solid #F7E8D3;
     border-radius: 5px;
-    /* height: 2px; */
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -61,15 +60,30 @@ footer hr {
     background-color: #293D48;
 }
 
+.footer-box a:hover {
+    text-decoration: underline;
+}
+
 .footer-content {
-    flex: 1 0 auto;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .footer-content, .footer-content a {
     color: #F7E8D3;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .footer-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-content {
+        flex: 1 0 auto;
+    }
 }
 
 /* logo */
