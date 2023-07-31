@@ -69,7 +69,7 @@ nav {
 
     .menu li,
     .menu {
-        flex: 1 0 auto;
+        flex: 1 0 25%;
         text-align: center;
     }
 }

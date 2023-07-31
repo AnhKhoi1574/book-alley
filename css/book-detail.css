@@ -29,7 +29,7 @@
 
 /* middle column */
 .middle-column {
-    flex-basis: 45%; 
+    flex-basis: 45%;
 }
 
 .middle-column img {
@@ -51,16 +51,21 @@
 .right-column h1 {
     font-size: 40px;
 }
+
 .right-column {
     font-size: 30px;
 }
 
 /* Upper part */
+/* @media screen and (min-width: 768px) {
+    
+}
 .book-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-}
+} */
+
 
 /* Detail button */
 .book-box details {
@@ -71,6 +76,7 @@
     background-color: #F7E8D3;
     color: #293D48;
 }
+
 .book-box details:hover {
     border: 5px solid #293D48;
     border-radius: 5px;
@@ -87,7 +93,18 @@
 
 .book-box .detail-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.book-box .detail-box details {
+    flex: 1 1 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .book-box .detail-box details {
+        flex: 1 1 calc(35% - 5px)   ;
+    } 
 }
 
 /* Add to card n Quantity */
@@ -106,6 +123,7 @@
     color: #F7E8D3;
     font-family: 'Old Standard TT', serif;
 }
+
 .button-group .submit-button:hover {
     background-color: #F7E8D3;
     color: #293D48;
@@ -116,10 +134,8 @@
     color: #293D48;
     background-color: #F7E8D3;
     border: 3px solid #293D48;
-}   
+}
+
 .suggestion.cards h2:hover {
     text-decoration: none;
-}
-.suggestion section {
-    background-color: #F6F1F1;
 }

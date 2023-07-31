@@ -16,7 +16,7 @@ Acknowledgement: Acknowledge the resources that you use here. -->
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/card-layout.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/book-detail.css">
+    <link rel="stylesheet" href="css/book-detail-draft.css">
     <link rel="shortcut icon" href="images/others/favicon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,6 +57,10 @@ Acknowledgement: Acknowledge the resources that you use here. -->
             <div class="book-box">
                 <div class="book-details">
                     <div class="left-column">
+                        <img src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-1.jpg"
+                            alt="Main Image">
+                    </div>
+                    <div class="middle-column">
                         <img src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-2.jpg"
                             alt="Image 1">
                         <img src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-3.jpg"
@@ -64,25 +68,32 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                         <img src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-4.jpg"
                             alt="Image 3">
                     </div>
-                    <div class="middle-column">
-                        <img src="images/book/fiction/coming-of-age-stories/give-me-a-ticket-to-childhood/give-me-a-ticket-to-childhood-1.jpg"
-                            alt="Main Image">
-                    </div>
                     <div class="right-column">
                         <div>
                             <h1>Give Me a Ticket to Childhood</h1>
-                                <p>Nguyen Nhat Anh</p>
-                                <p><strong>400.000&#8363;</strong></p>
+                            <p><strong>400.000&#8363;</strong></p>
+                            <p>Author: Nguyen Nhat Anh</p>
                         </div>
                         <div class="feedback-stars">
                         </div>
                         <div>
                             <div class="button-group">
-                                <label for="prod-quantity">Quantity:</label>
-                                <input class="quantity" type="number" name="prod-quantity" id="prod-quantity" value="1">
+                                <div class="quantity">
+                                <label for="prod-quantity">Quantity:</label><br>
+                                <!-- <input class="quantity" type="number" name="prod-quantity" id="prod-quantity" value="1"> -->
+                                <select class="select-box" name="prod-quantity" id="prod-quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                </div>
+                                <div>
                                 <button class="submit-button" type="submit">
                                     <strong>Add to cart</strong>
                                 </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -100,6 +111,7 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                             will make them appreciate the simple joys of life.
                         </p>
                     </details>
+                    <hr>
                     <details>
                         <summary>Shipping</summary>
                         <p>

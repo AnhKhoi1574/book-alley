@@ -9,11 +9,11 @@ Acknowledgement: Acknowledge the resources that you use here. */
 /* card layout */
 
 .cards section {
-    background-color: white;
-    margin: 20px 0;
+    margin: 20px 0 50px;
 }
 
-.cards section, .card {
+.cards section,
+.card {
     border-radius: 5px;
 }
 
@@ -21,7 +21,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 .cards h2 {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px 0 ;
     padding: 10px;
     color: #F7E8D3;
     background-color: #293D48;
@@ -39,13 +39,14 @@ Acknowledgement: Acknowledge the resources that you use here. */
     border: 2px solid #293D48;
     background: white;
     transition: border .2s;
+    margin-bottom: 10px;
 }
 
 .card a {
-	color: #293D48;
-	text-decoration: none;
+    color: #293D48;
+    text-decoration: none;
     border-radius: 5px;
-    
+
 }
 
 .card:hover {
@@ -65,17 +66,16 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 /* Larger screen */
 @media screen and (min-width: 426px) {
-    
+
     .card-layout {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        row-gap: 5px;
     }
 
     .card {
         display: flex;
-        flex: 0 1 calc(50% - 5px);
+        flex: 0 1 calc(49%);
     }
 
     .card-text {
@@ -85,7 +85,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 /* largest screen */
 @media screen and (min-width: 1024px) {
-    
+
     .card {
         flex: 0 1 calc(33% - 5px);
     }

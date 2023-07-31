@@ -1,0 +1,147 @@
+/* basic layout */
+/* Left-column - Large image */
+.left-column {
+    margin-bottom: 20px;
+}
+.left-column img,
+.middle-column img {
+    border: 2px solid #293D48;
+    border-radius: 5px
+}
+
+/* middle column - small image */
+.middle-column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.middle-column img {
+    width: 25%;
+    border: 2px solid #293D48;
+}
+
+/* Right column - detail */
+.right-column {
+    font-size: 15px;
+}
+.right-column strong {
+    font-size: 21px;
+}
+.right-column h1 {
+    font-size: 21px;
+
+}
+
+/* Button */
+.button-group .quantity,
+.button-group .submit-button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button-group .quantity {
+    color: #293D48;
+}
+.button-group .quantity .select-box {
+    width: 50%;
+    color: #F7E8D3;
+    background-color: #293D48;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-group .submit-button {
+    background-color: #293D48;
+    color: #F7E8D3;
+    font-family: 'Old Standard TT', serif;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.button-group .submit-button:hover {
+    background-color: #F7E8D3;
+    color: #293D48;
+}
+
+/* Detail button */
+.book-box hr {
+    border: 2px solid #293D48;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.book-box details {
+    padding: 10px;
+    border: 3px solid #293D48;
+    border-radius: 5px;
+    background-color: #F7E8D3;
+    color: #293D48;
+}
+.book-box details:first-child {
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.book-box details:last-child {
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+.book-box details:last-child p {
+    text-align: left;
+}
+
+/* .book-box details {
+    margin: 20px 0 0;
+    padding: 10px;
+    border: 3px solid #293D48;
+    border-radius: 5px;
+    background-color: #F7E8D3;
+    color: #293D48;
+} */
+
+/* .book-box details:hover {
+    border: 5px solid #293D48;
+    border-radius: 5px;
+} */
+
+.book-box details summary {
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-box details p {
+    text-align: justify;
+}
+
+.book-box .detail-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.book-box .detail-box details {
+    flex: 1 1 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .book-box .detail-box details {
+        flex: 1 1 calc(35% - 5px)   ;
+    } 
+}
+
+/* suggestion */
+.suggestion.cards h2 {
+    font-size: 22px;
+    color: #293D48;
+    background-color: #F7E8D3;
+    border: 3px solid #293D48;
+}
+
+.suggestion.cards h2:hover {
+    text-decoration: none;
+}
