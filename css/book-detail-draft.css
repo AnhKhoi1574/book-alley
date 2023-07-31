@@ -15,14 +15,18 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.middle-column img {
+
+.middle-column a {
     width: 25%;
+}
+.middle-column img {
     border: 2px solid #293D48;
 }
 
 /* Right column - detail */
 .right-column {
     font-size: 15px;
+    color: #293D48;
 }
 .right-column strong {
     font-size: 21px;
@@ -36,7 +40,7 @@
 .button-group .quantity,
 .button-group .submit-button {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .button-group .quantity {
@@ -91,31 +95,10 @@
     border-top: none;
     border-radius: 0 0 5px 5px;
 }
-.book-box details:last-child p {
-    text-align: left;
-}
-
-/* .book-box details {
-    margin: 20px 0 0;
-    padding: 10px;
-    border: 3px solid #293D48;
-    border-radius: 5px;
-    background-color: #F7E8D3;
-    color: #293D48;
-} */
-
-/* .book-box details:hover {
-    border: 5px solid #293D48;
-    border-radius: 5px;
-} */
 
 .book-box details summary {
     text-align: center;
     font-weight: bold;
-}
-
-.book-box details p {
-    text-align: justify;
 }
 
 .book-box .detail-box {
