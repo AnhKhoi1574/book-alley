@@ -25,7 +25,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
     padding: 10px;
     color: #F7E8D3;
     background-color: #293D48;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
 }
 
 .cards h2:hover {
@@ -70,6 +70,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        row-gap: 5px;
     }
 
     .card {
