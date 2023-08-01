@@ -1,3 +1,11 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Phan Anh Khoi
+ID: s3980639
+Acknowledgement: Acknowledge the resources that you use here. */
+
 /* basic layout */
 /* main image */
 .main-image {
@@ -31,73 +39,9 @@
     color: #293D48;
 }
 
-.book-info-box strong, .book-info-box h1 {
+.book-info-box strong,
+.book-info-box h1 {
     font-size: 21px;
-}
-
-@media screen and (min-width: 768px) {
-
-    .book-info-box {
-        font-size: 21px;
-    }
-    .book-info-box strong, .book-info-box h1 {
-        font-size: 30px;
-    }
-
-    .book-detail-images {
-        display: flex;
-    }
-    .main-image {
-        order: 2;
-        flex: 1 1 83%;
-    }
-    
-    .small-image {
-        order: 1;
-        flex-direction: column;
-        flex: 1 1 17%;
-        justify-content: space-evenly;
-        margin: 0;
-    }
-    .small-image a {
-        width: 75%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .book-detail {
-        display: flex;
-        background-color: white;
-        border: 2px solid #293D48;
-        border-radius: 5px;
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-    .main-image img {
-        border: none;
-    }
-
-    .small-image {
-        align-items: center;
-    }
-
-    .book-detail-images {
-        flex: 0 1 50%;
-    }
-
-    .separator {
-        height: 2px;
-        background-color: #293D48;
-        margin: 0;
-        border-radius: 5px;
-      }
-
-    .book-info-box {
-        display: flex;
-        flex-direction: column;
-        flex: 0 1 50%;
-        justify-content: space-evenly;
-    }
 }
 
 /* quatity and add to cart */
@@ -143,9 +87,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .button-group .quantity .select-box {
-        width: 30%;
-    }
+    
 }
 
 /* detail buttons */
@@ -178,34 +120,104 @@
     text-align: center;
     font-weight: bold;
 }
+
 .book-box details summary:hover {
     text-decoration: underline 2px;
     text-underline-offset: 6px;
 }
 
-.book-box .detail-box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+/* separator line */
+.book-box .separator {
+    background-color: #293D48;
 }
-
-.book-box .detail-box details {
-    flex: 1 1 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .book-box .detail-box details {
-        flex: 1 1 calc(35% - 5px);
-    }
+.book-info-box .separator {
+    display: none;
 }
 
 /* suggestion */
 .suggestion.cards h2 {
     font-size: 30px;
-    color: #F7E8D3  ;
+    color: #F7E8D3;
     background-color: #293D48;
 }
 
 .suggestion.cards h2:hover {
     text-decoration: none;
+}
+
+/* larger screen */
+@media screen and (min-width: 768px) {
+
+    .book-info-box {
+        font-size: 21px;
+    }
+
+    .book-info-box strong,
+    .book-info-box h1 {
+        font-size: 30px;
+    }
+
+    /* quantity button */
+    .button-group .quantity .select-box {
+        width: 30%;
+    }
+
+    /* all of images */
+    .book-detail-images {
+        display: flex;
+    }
+
+    .small-image {
+        order: 1;
+        flex-direction: column;
+        flex: 1 1 17%;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .small-image a {
+        width: 75%;
+    }
+
+    .main-image {
+        order: 2;
+        flex: 1 1 83%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .book-detail {
+        display: flex;
+        background-color: white;
+        border: 2px solid #293D48;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .book-detail-images {
+        flex: 0 1 50%;
+    }
+
+    .small-image {
+        align-items: center;
+    }
+
+    .main-image img {
+        border: none;
+    }
+
+    .book-info-box .separator {
+        display: block;
+        border-radius: 5px;
+        background-color: #293D48;
+    }
+
+    .book-info-box {
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 50%;
+        justify-content: space-evenly;
+    }
 }

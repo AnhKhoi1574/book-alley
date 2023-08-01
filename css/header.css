@@ -1,0 +1,35 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Phan Anh Khoi
+ID: s3980639
+Acknowledgement: Acknowledge the resources that you use here. */
+
+/* header */
+/* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo a {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+/* banner */
+.banner img {
+    border-radius: 5px;
+}
+
+/* video */
+.video-header {
+    width: 100%;
+    border-radius: 5px;
+}

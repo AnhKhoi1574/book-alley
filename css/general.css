@@ -7,22 +7,6 @@ ID: s3980639
 Acknowledgement: Acknowledge the resources that you use here. */
 
 /* general */
-
-/* video */
-.video-header {
-    width: 100%;
-    border-radius: 5px;
-}
-
-/* image */
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-/* body */
 body {
     margin: 0 auto;
     padding: 0 20px;
@@ -37,113 +21,15 @@ body {
     }
 }
 
-/* footer */
-
-footer,
-.footer-box,
-.footer-content {
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #293D48;
-}
-
-footer hr {
-    border: 1px solid #F7E8D3;
-    border-radius: 5px;
+/* image */
+img {
     width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* separator line */
+.separator {
+    height: 3px;
     margin: 0;
-    padding: 0;
-}
-
-.footer-box {
-    background-color: #293D48;
-}
-
-.footer-box a:hover {
-    text-decoration: underline;
-}
-
-.footer-content {
-    text-align: center;
-}
-
-.footer-content,
-.footer-content a {
-    color: #F7E8D3;
-    text-decoration: none;
-}
-
-@media screen and (min-width: 768px) {
-
-    .footer-box {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0 auto;
-    }
-
-    .footer-content {
-        flex: 1 0 auto;
-    }
-}
-
-/* logo */
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.logo a {
-    text-align: center;
-}
-
-.logo img {
-    width: 200px;
-    border-radius: 5px;
-}
-
-/* banner */
-.banner img {
-    border-radius: 5px;
-}
-
-/* breadcrumbs */
-.bread {
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    list-style: none;
-    font-size: 15px;
-}
-
-.bread li {
-    display: inline-block;
-    color: #293D48;
-
-}
-
-.bread li a {
-    color: #293D48;
-    text-decoration: none;
-}
-
-.bread li:last-child {
-    text-decoration: underline;
-}
-
-.bread li:not(:last-child):after {
-    content: ">";
-    margin: 0 5px 0 12px;
-    color: #293D48;
-}
-
-@media screen and (min-width: 768px) {
-    .bread {
-        margin-bottom: 10px;
-        padding: 10px 20px;
-        list-style: none;
-        font-size: 22px;
-    }
 }
