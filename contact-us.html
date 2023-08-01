@@ -12,7 +12,7 @@ Acknowledgement: Acknowledge the resources that you use here. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Alley's Homepage</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/card-layout.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -25,31 +25,86 @@ Acknowledgement: Acknowledge the resources that you use here. -->
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<main>
-    
-</main>
+<body>
+    <div>
+        <header>
 
-<footer>
-    <aside class="menu" role="navigation">
-        <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="terms.html">Terms</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </aside>
-    <div class="separator"></div>
-    <div class="footer-box">
-        <p class="footer-content">Made by Anh Khoi with ❤️‍🔥
-            <br>Email: <a href="mailto:s3980639@rmit.edu.vn">s3980639@rmit.edu.vn</a>
-        </p>
-        <p class="footer-content">Copyright <sup>&#169;</sup> 2023 Book Alley.
-            <br>All rights reserved.
-        </p>
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html"><img src="images/others/logo-1.jpg" alt="Book Alley's logo"></a>
+            </div>
+
+            <!-- Navigation bar -->
+            <!-- <div class="mobile-nav-icon">☰</div> -->
+            <nav class="menu" role="navigation">
+                <ul>
+                    <!-- <span class="searching"><li> Search bar</li></span> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li><a href="non-fiction.html">Non-Fiction</a></li>
+                    <li><a href="education.html">Education</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact Us</h1>
+            <form action="index.html" method="post" enctype="application/x-www-form-urlencoded">
+                <fieldset>
+                    <legend>Form</legend>
+                    <label for="purpose">Purpose:</label>
+                    <select name="purpose" id="purpose">
+                        <option value="sell">I want to sell books</option>
+                        <option value="buy">I want to buy books</option>
+                    </select><br>
+
+                    <label for="user-name">Name:</label>
+                    <input name="user-name" type="text" id="user-name"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="number" name="phone" id="phone"><br>
+
+                    <label for="contact-preference">Contact preference:</label><br>
+                    <input type="checkbox" name="contact-preference" id="contact-preference" value="email">By email
+                    <input type="checkbox" name="contact-preference" id="contact-preference" value="phone">By phone<br>
+
+                    <label for="newsletter ">Receive weekly newsletter:</label><br>
+                    <input type="radio" name="newsletter" value="yes">Yes
+                    <input type="radio" name="newsletter" value="no">No<br>
+
+                    <label for="note">Extra notes:</label><br>
+                    <textarea name="note" id="note" cols="30" rows="10"></textarea><br>
+
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </main>
+
+        <footer>
+            <aside class="menu" role="navigation">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </aside>
+            <div class="separator"></div>
+            <div class="footer-box">
+                <p class="footer-content">Made by Anh Khoi with ❤️‍🔥
+                    <br>Email: <a href="mailto:s3980639@rmit.edu.vn">s3980639@rmit.edu.vn</a>
+                </p>
+                <p class="footer-content">Copyright <sup>&#169;</sup> 2023 Book Alley.
+                    <br>All rights reserved.
+                </p>
+            </div>
+            <div></div>
+        </footer>
     </div>
-    <div></div>
-</footer>
-</div>
 </body>
 
 </html>
