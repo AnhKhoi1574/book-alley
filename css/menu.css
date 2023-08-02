@@ -72,14 +72,18 @@ nav {
         flex: 1 0 25%;
         text-align: center;
     }
+    .mobile-nav-icon {
+        display: none;
+    }
+
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
         height: auto;
-        padding: 5px 20px;
+        padding: 5px 0px;
     }
 
     nav ul {
@@ -116,6 +120,7 @@ nav {
     height: 30px;
     padding: 5px;
     font-size: 20px;
-    background-color: #E61E2A;
-    display: none;
-} */
+    background-color: #293D48;
+    color: #F7E8D3;
+    border-radius: 5px;
+}

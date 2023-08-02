@@ -13,6 +13,7 @@ body {
     background: #F6F1F1;
     font-family: 'Old Standard TT', serif;
     font-size: 22px;
+    color: #293D48;
 }
 
 @media screen and (min-width: 60em) {
@@ -32,4 +33,9 @@ img {
 .separator {
     height: 3px;
     margin: 0;
+}
+
+/* center align */
+.centered {
+    margin: 0 auto;
 }

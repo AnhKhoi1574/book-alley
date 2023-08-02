@@ -86,10 +86,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
     border: 3px solid #293D48;
 }
 
-@media screen and (min-width: 768px) {
-    
-}
-
 /* detail buttons */
 .book-box details {
     padding: 10px;
@@ -152,7 +148,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
     /* quantity button */
     .button-group .quantity .select-box {
-        width: 30%;
+        width: 40%;
     }
 
     /* all of images */
@@ -164,12 +160,12 @@ Acknowledgement: Acknowledge the resources that you use here. */
         order: 1;
         flex-direction: column;
         flex: 1 1 17%;
-        justify-content: space-evenly;
-        margin: 0;
+        justify-content: space-between;
+        margin: 0 0 20px ;
     }
 
     .small-image a {
-        width: 75%;
+        width: 84%;
     }
 
     .main-image {
@@ -195,6 +191,15 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
     .small-image {
         align-items: center;
+        margin: 6px 0;
+    }
+
+    .small-image a {
+        width: 75%;
+    }
+
+    .main-image {
+        margin-bottom: 0;
     }
 
     .main-image img {
@@ -212,5 +217,9 @@ Acknowledgement: Acknowledge the resources that you use here. */
         flex-direction: column;
         flex: 0 1 50%;
         justify-content: space-evenly;
+    }
+
+    .button-group .quantity .select-box {
+        width: 30%;
     }
 }
