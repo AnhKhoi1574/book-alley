@@ -36,10 +36,9 @@ Acknowledgement: Acknowledge the resources that you use here. -->
             </div>
 
             <!-- Navigation bar -->
-            <!-- <div class="mobile-nav-icon">☰</div> -->
+            <div class="mobile-nav-icon">☰</div>
             <nav class="menu" role="navigation">
                 <ul>
-                    <!-- <span class="searching"><li> Search bar</li></span> -->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="fiction.html">Fiction</a></li>
                     <li><a href="non-fiction.html">Non-Fiction</a></li>
@@ -50,10 +49,9 @@ Acknowledgement: Acknowledge the resources that you use here. -->
 
         <main>
             <div class="contact-us centered">
-            <h1>Contact Us</h1>
             <form action="index.html" method="post" enctype="application/x-www-form-urlencoded">
                 <fieldset>
-                    <legend class="contact-info">Contact Info</legend>
+                    <legend class="contact-info"><h1>Contact Us</h1></legend>
 
                     <label for="purpose">Purpose:</label>
                     <select name="purpose" id="purpose">
@@ -71,20 +69,22 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                     <label for="phone">Phone:</label>
                     <input type="number" name="phone" id="phone"><br>
 
-                    <label for="contact-preference">Contact preference:</label>
+                    <label for="contact-preference">Contact:</label>
                     <input type="checkbox" name="contact-preference" id="contact-preference" value="email">By email
                     <input type="checkbox" name="contact-preference" id="contact-preference" value="phone">By phone<br>
 
-                    <label for="newsletter ">Receive weekly newsletter:</label>
+                    <label for="newsletter ">Newsletter:</label>
                     <input type="radio" name="newsletter" value="yes">Yes
                     <input type="radio" name="newsletter" value="no">No<br>
 
-                    <label for="note">Extra notes:</label>
-                    <textarea name="note" id="note" cols="10" rows="1"></textarea>
+                    <label for="note">Notes:</label>
+                    <textarea name="note" id="note" cols="10" rows="2"></textarea>
 
                 </fieldset>
+                <div class="form-button">
                 <input type="submit" value="Submit">
                 <input type="reset" value="Reset">
+                </div>
             </form>
         </div>
         </main>

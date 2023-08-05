@@ -1,25 +1,37 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Phan Anh Khoi
+ID: s3980639
+Acknowledgement: Acknowledge the resources that you use here. */
+
 .contact-us {
     background-color: #293D48;
     color: #F7E8D3;
     margin-bottom: 20px;
     border-radius: 5px;
-    padding: 20px;
-    width: 50%;
+    padding: 20px 20px 10px;
+    font-size: 15px;
 }
 
-.contact-us h1 {
+.contact-us legend {
     text-align: center;
+}
+
+.contact-us fieldset {
+    border-radius: 5px;
 }
 
 .contact-us input[type="text"],
 .contact-us input[type="email"],
 .contact-us input[type="number"],
-.contact-us text,
 .contact-us textarea,
 .contact-us select {
     box-sizing: border-box;
-    width: 150px;
+    width: 90%;
 }
+
 .contact-us input[type="text"],
 .contact-us input[type="email"],
 .contact-us input[type="number"],
@@ -30,23 +42,58 @@
 .contact-us select {
     color: #293D48;
     padding: 3px;
-    margin: 10px;
+    margin: 15px;
+    vertical-align: middle;
 }
 
-
-/* .contact-us input[type="checkbox"] + label {
-    opacity: 0;
-    width: 0;
-    margin: 0;
+.contact-us label {
+    display: block;
 }
 
-.contact-us input[type="checkbox"] + label {
-    background-color: white;
-    border: 2px solid #F7E8D3;
-    padding: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    width: 30px;
+.contact-us .form-button {
+    margin: 20px;
     text-align: center;
-} */
+}
 
+.contact-us .form-button input[type=submit],
+.contact-us .form-button input[type=reset] {
+    background-color: #F7E8D3;
+    color: #293D48;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    margin: 0 10px;
+}
+
+.contact-us .form-button input[type=submit]:hover,
+.contact-us .form-button input[type=reset]:hover {
+    background-color: #293D48;
+    color: #F7E8D3;
+    border: 2px solid #F7E8D3;
+}
+
+@media screen and (min-width: 500px) {
+    .contact-us fieldset {
+        padding: 5px 10%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .contact-us {
+        width: 50%;
+    }
+
+    .contact-us label {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .contact-us input[type="text"],
+    .contact-us input[type="email"],
+    .contact-us input[type="number"],
+    .contact-us textarea,
+    .contact-us select {
+        width: 65%;
+    }
+}

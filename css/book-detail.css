@@ -89,7 +89,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 /* detail buttons */
 .book-box details {
     padding: 10px;
-    border: 3px solid #293D48;
+    border: 2px solid #293D48;
     border-radius: 5px;
     background-color: #F7E8D3;
     color: #293D48;
@@ -119,6 +119,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 .book-box .separator {
     background-color: #293D48;
 }
+
 .book-info-box .separator {
     display: none;
 }
@@ -128,10 +129,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
     font-size: 30px;
     color: #F7E8D3;
     background-color: #293D48;
-}
-
-.suggestion.cards h2:hover {
-    text-decoration: none;
 }
 
 /* larger screen */
@@ -161,7 +158,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
         flex-direction: column;
         flex: 1 1 17%;
         justify-content: space-between;
-        margin: 0 0 20px ;
+        margin: 0 0 20px;
     }
 
     .small-image a {
@@ -218,6 +215,11 @@ Acknowledgement: Acknowledge the resources that you use here. */
         flex: 0 1 50%;
         justify-content: space-evenly;
     }
+
+    .button-group .quantity {
+        margin: 20px 0;
+    }
+
 
     .button-group .quantity .select-box {
         width: 30%;

@@ -16,9 +16,7 @@ nav {
     font-size: 30px;
 }
 
-.menu,
-.menu ul,
-.menu li {
+.menu ul {
     border-radius: 5px;
 }
 
@@ -37,26 +35,78 @@ nav {
     font-weight: bold;
 }
 
+/* hamburger icon */
+.mobile-nav-icon {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #293D48;
+    color: #F7E8D3;
+    border-radius: 5px;
+}
+
+
+
+/* effect */
+header li a:hover {
+    border: 3px solid #293D48;
+}
+
 .menu li a:hover {
     color: #293D48;
     background-color: #F7E8D3;
 }
 
-/* .menu ul a:hover:first-child {
+nav li:first-child a:hover {
     border-radius: 5px 0 0 5px;
 }
-.menu ul a:hover:last-child {
-    border-radius: 0 5px 5px 0;
-} */
-/* .menu li:first-child:hover {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-  
-.menu li:last-child:hover {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  } */
+
+nav li:last-child a:hover {
+    border-radius: 0 4px 4px 0;
+}
+
+/* mobile hamburger bar */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+        margin-bottom: 20px;
+        transition: transform .2s ease-in-out;
+    }
+    
+    .mobile-nav-icon:hover {
+        transform: rotate(90deg);
+    }
+
+    .mobile-nav-icon:hover+nav {
+        display: block;
+    }
+
+    nav:hover {
+        display: block;
+    }
+}
 
 /* larger screen menu */
 @media screen and (min-width: 768px) {
@@ -76,51 +126,4 @@ nav {
         display: none;
     }
 
-}
-
-@media (max-width: 767px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 5px 0px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .mobile-nav-icon {
-        display: block;
-    }
-
-    .mobile-nav-icon:hover+nav {
-        display: block;
-    }
-
-    nav:hover {
-        display: block;
-    }
-}
-
-.mobile-nav-icon {
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    font-size: 20px;
-    background-color: #293D48;
-    color: #F7E8D3;
-    border-radius: 5px;
 }

@@ -21,14 +21,6 @@ footer .separator {
     background-color: #F7E8D3;
 }
 
-footer hr {
-    border: 1px solid #F7E8D3;
-    border-radius: 5px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 .footer-box {
     background-color: #293D48;
 }
@@ -45,6 +37,14 @@ footer hr {
 .footer-content a {
     color: #F7E8D3;
     text-decoration: none;
+}
+
+footer li:first-child a:hover {
+    border-radius: 4px 0 0 0;
+}
+
+footer li:last-child a:hover {
+    border-radius: 0 4px 0 0;
 }
 
 @media screen and (min-width: 768px) {

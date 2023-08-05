@@ -12,13 +12,14 @@ Acknowledgement: Acknowledge the resources that you use here. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiction</title>
+    <title>The Lord of the Rings</title>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/card-layout.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/breadcrumbs.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/book-detail.css">
     <link rel="shortcut icon" href="images/others/favicon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,25 +45,88 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                     <li><a href="education.html">Education</a></li>
                 </ul>
             </nav>
-            <!-- banner -->
-            <picture class="banner">
-                <img src="images/others/fiction-banner.jpeg" alt="fiction banner">
-            </picture>
         </header>
 
         <main>
             <!-- breadcrumbs -->
             <nav aria-label="bread">
                 <ol class="bread">
-                    <li><a href="#">Home</a></li>
-                    <li>Fiction</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li>The Lord of the Rings</li>
                 </ol>
             </nav>
+            <div class="book-box">
+                <div class="book-detail">
+                    <div class="book-detail-images">
+                        <div class="main-image">
+                            <a href="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-1.jpg"><img
+                                    src="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-1.jpg"
+                                    alt="The Lord of the Rings cover image"></a>
 
-            <div class="cards">
-                <!-- coming-of-age stories -->
+                        </div>
+                        <div class="small-image">
+                            <a href="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-2.jpg"><img
+                                    src="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-2.jpg"
+                                    alt="The Lord of the Rings book image 1"></a>
+                            <a href="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-3.jpg"><img
+                                    src="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-3.jpg"
+                                    alt="imaThe Lord of the Rings book image 2"></a>
+                            <a href="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-4.jpg"><img
+                                    src="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-4.jpg"
+                                    alt="The Lord of the Rings book image 3"></a>
+                        </div>
+                    </div>
+                    <div class="book-info-box">
+                        <div class="book-info">
+                            <h1>The Lord of the Rings</h1>
+                            <p><strong>660.000&#8363;</strong></p>
+                            <p>Author: J.R.R. Tolkien</p>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="button-group">
+                            <div class="quantity">
+                                <label for="prod-quantity">Quantity:</label><br>
+                                <select class="select-box" name="prod-quantity" id="prod-quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button class="submit-button" type="submit">
+                                    <strong>Add to cart</strong>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="detail-box">
+                    <details>
+                        <summary>Description</summary>
+                        <p>The Lord of the Rings is an epic high fantasy trilogy written by English philologist and
+                            University of Oxford professor J. R. R. Tolkien. The story began as a sequel to Tolkien's
+                            1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in
+                            stages between 1937 and 1949, with much of it being written during World War II, it was
+                            originally published in three volumes in 1954 and 1955. It has since been reprinted numerous
+                            times and translated into at least 38 languages, becoming one of the best-selling novels
+                            ever written.</p>
+                    </details>
+                    <div class="separator"></div>
+                    <details>
+                        <summary>Shipping</summary>
+                        <p>
+                            All orders will be shipped within 24-48 hours after the transaction is completed.
+                        </p>
+                    </details>
+                </div>
+            </div>
+            <div class="cards suggestion">
+                <!-- Suggestion -->
                 <section>
-                    <h2>Coming-of-age stories</h2>
+                    <h2>Suggestion</h2>
                     <div class="card-layout">
                         <!-- Book 1 -->
                         <article class="card">
@@ -111,60 +175,9 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                         </article>
                     </div>
                 </section>
-
-                <!-- Fantasy -->
-                <section>
-                    <h2>Fantasy</h2>
-                    <div class="card-layout">
-                        <!-- Book 1 -->
-                        <article class="card">
-                            <a href="harry-potter.html">
-                                <picture>
-                                    <img src="images/book/fiction/fantasy/harry-potter/harry-potter-1.jpg"
-                                        alt="Harry Potter And The Order Of The Phoenix">
-                                </picture>
-                                <div class="card-text">
-                                    <p>Harry Potter And The Order Of The Phoenix
-                                        <br><strong>400.000&#8363;</strong>
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-
-                        <!-- Book 2 -->
-                        <article class="card">
-                            <a href="the-lord-of-the-rings.html">
-                                <picture>
-                                    <img src="images/book/fiction/fantasy/the-lord-of-the-rings/the-lord-of-the-rings-1.jpg"
-                                        alt="The Lord of the Rings">
-                                </picture>
-                                <div class="card-text">
-                                    <p>The Lord of the Rings
-                                        <br><strong>660.000&#8363;</strong>
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                        <!-- Book 3 -->
-
-                        <article class="card">
-                            <a href="a-song-of-ice-and-fire.html">
-                                <picture>
-                                    <img src="images/book/fiction/fantasy/a-song-of-ice-and-fire/a-song-of-ice-and-fire-1.jpg"
-                                        alt="A Song Of Ice And Fire 4: A Feast For Crows">
-                                </picture>
-                                <div class="card-text">
-                                    <p>A Song Of Ice And Fire 4: A Feast For Crows
-                                        <br><strong>420.000&#8363;</strong>
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
-                </section>
-
             </div>
         </main>
+
         <footer>
             <aside class="menu" role="navigation">
                 <ul>
@@ -183,6 +196,7 @@ Acknowledgement: Acknowledge the resources that you use here. -->
                     <br>All rights reserved.
                 </p>
             </div>
+            <div></div>
         </footer>
     </div>
 </body>
