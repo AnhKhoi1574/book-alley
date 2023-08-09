@@ -25,10 +25,6 @@ footer .separator {
     background-color: #293D48;
 }
 
-.footer-box a:hover {
-    text-decoration: underline;
-}
-
 .footer-content {
     text-align: center;
 }
@@ -39,6 +35,11 @@ footer .separator {
     text-decoration: none;
 }
 
+/* effect */
+.footer-box a:hover {
+    text-decoration: underline;
+}
+
 footer li:first-child a:hover {
     border-radius: 4px 0 0 0;
 }
@@ -47,6 +48,7 @@ footer li:last-child a:hover {
     border-radius: 0 4px 0 0;
 }
 
+/* larger screen */
 @media screen and (min-width: 768px) {
 
     .footer-box {

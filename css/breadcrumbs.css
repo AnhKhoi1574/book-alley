@@ -25,16 +25,19 @@ Acknowledgement: Acknowledge the resources that you use here. */
     text-decoration: none;
 }
 
+/* a little adjustment for current navigation */
 .bread li:last-child {
     text-decoration: underline;
 }
 
+/* add ">" symbol after any list item except the last one */
 .bread li:not(:last-child):after {
     content: ">";
     margin: 0 5px 0 12px;
     color: #293D48;
 }
 
+/* larger screen */
 @media screen and (min-width: 768px) {
     .bread {
         margin-bottom: 10px;

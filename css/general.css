@@ -16,6 +16,7 @@ body {
     color: #293D48;
 }
 
+/* larger screen */
 @media screen and (min-width: 60em) {
     body {
         max-width: 60em;

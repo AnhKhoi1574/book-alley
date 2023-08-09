@@ -6,12 +6,14 @@ Author: Phan Anh Khoi
 ID: s3980639
 Acknowledgement: Acknowledge the resources that you use here. */
 
+/* about us */
 .policy-and-terms.about-us {
     background-color: #293D48;
     color: #F7E8D3;
     border: 3px solid #293D48;
 }
 
+/* Horizontal line */
 .about-us .separator {
     background-color: #F7E8D3;
 }

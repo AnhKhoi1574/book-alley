@@ -6,6 +6,7 @@ Author: Phan Anh Khoi
 ID: s3980639
 Acknowledgement: Acknowledge the resources that you use here. */
 
+/* policy and terms */
 .policy-and-terms {
     background-color: white;
     color: #293D48;
@@ -16,11 +17,13 @@ Acknowledgement: Acknowledge the resources that you use here. */
     font-size: 20px;
 }
 
+/* Decorated horizontal line */
 .policy-and-terms .separator {
     height: 1px;
     background-color: #293D48;
 }
 
+/* mobile layout */
 @media screen and (max-width: 768px) {
     .policy-and-terms {
         font-size: 14px;

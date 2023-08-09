@@ -134,6 +134,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 /* larger screen */
 @media screen and (min-width: 768px) {
 
+    /*<!-- Book info --> */
     .book-info-box {
         font-size: 21px;
     }
@@ -156,7 +157,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
     .small-image {
         order: 1;
         flex-direction: column;
-        flex: 1 1 17%;
+        flex: 1 1 19%;
         justify-content: space-between;
         margin: 0 0 20px;
     }
@@ -172,7 +173,9 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 }
 
-@media screen and (min-width: 1024px) {
+/* largest screen */
+@media screen and (min-width: 992px) {
+    /* container of book's images and infomation */
     .book-detail {
         display: flex;
         background-color: white;
@@ -181,11 +184,13 @@ Acknowledgement: Acknowledge the resources that you use here. */
         padding: 20px;
         margin-bottom: 30px;
     }
-
+    
+    /* container of book's large image and 3 smaller images */
     .book-detail-images {
         flex: 0 1 50%;
     }
 
+    /* all of book's images */
     .small-image {
         align-items: center;
         margin: 6px 0;
@@ -203,12 +208,14 @@ Acknowledgement: Acknowledge the resources that you use here. */
         border: none;
     }
 
+    /* Decorated horizontal line */
     .book-info-box .separator {
         display: block;
         border-radius: 5px;
         background-color: #293D48;
     }
 
+    /* Book information container */
     .book-info-box {
         display: flex;
         flex-direction: column;
@@ -216,10 +223,10 @@ Acknowledgement: Acknowledge the resources that you use here. */
         justify-content: space-evenly;
     }
 
+    /* Quantity button with select box */
     .button-group .quantity {
         margin: 20px 0;
     }
-
 
     .button-group .quantity .select-box {
         width: 30%;

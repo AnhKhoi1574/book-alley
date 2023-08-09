@@ -6,7 +6,7 @@ Author: Phan Anh Khoi
 ID: s3980639
 Acknowledgement: Acknowledge the resources that you use here. */
 
-/* menu */
+/* basic menu styling */
 nav {
     margin-bottom: 20px;
 }
@@ -16,6 +16,7 @@ nav {
     font-size: 30px;
 }
 
+/* menu list */
 .menu ul {
     border-radius: 5px;
 }
@@ -67,7 +68,7 @@ nav li:last-child a:hover {
     border-radius: 0 4px 4px 0;
 }
 
-/* mobile hamburger bar */
+/* mobile layout with hamburger bar */
 @media (max-width: 767px) {
     nav {
         flex-direction: column;
@@ -89,6 +90,7 @@ nav li:last-child a:hover {
         display: none;
     }
 
+    /* hamburger icon */
     .mobile-nav-icon {
         display: block;
         margin-bottom: 20px;
@@ -111,6 +113,7 @@ nav li:last-child a:hover {
 /* larger screen menu */
 @media screen and (min-width: 768px) {
 
+    /* menu list */
     .menu ul {
         display: flex;
         flex-wrap: wrap;
@@ -122,6 +125,8 @@ nav li:last-child a:hover {
         flex: 1 0 25%;
         text-align: center;
     }
+
+    /* hamburger */
     .mobile-nav-icon {
         display: none;
     }

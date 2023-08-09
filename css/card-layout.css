@@ -21,7 +21,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 .cards h2 {
     font-size: 40px;
     text-align: center;
-    margin: 10px 0 ;
+    margin: 10px 0;
     padding: 10px;
     color: #F7E8D3;
     background-color: #293D48;
@@ -31,12 +31,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
 .cards a {
     text-decoration: none;
     color: #F7E8D3;
-}
-
-.cards h2 a:hover {
-    text-decoration: underline 2px;
-    text-underline-offset: 7px;
-    border-radius: 5px;
 }
 
 .card {
@@ -54,11 +48,6 @@ Acknowledgement: Acknowledge the resources that you use here. */
 
 }
 
-.card:hover {
-    border: 4px solid #293D48;
-    font-weight: bold;
-}
-
 .card-text {
     text-align: center;
     padding: 0 5px 5px;
@@ -69,15 +58,29 @@ Acknowledgement: Acknowledge the resources that you use here. */
     padding-top: 10px;
 }
 
+/* effect */
+.cards h2 a:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 7px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: 4px solid #293D48;
+    font-weight: bold;
+}
+
 /* Larger screen */
 @media screen and (min-width: 426px) {
 
+    /* All cards */
     .card-layout {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
+    /* Each card */
     .card {
         display: flex;
         flex: 0 1 calc(48%);
@@ -89,7 +92,7 @@ Acknowledgement: Acknowledge the resources that you use here. */
 }
 
 /* largest screen */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
     .card {
         flex: 0 1 calc(33% - 5px);
